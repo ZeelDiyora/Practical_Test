@@ -1,0 +1,23 @@
+//Q1
+#include<stdio.h>
+
+int main(){
+int num1,num2,x,y;
+
+printf("Press first number for the range : ")
+scanf("%d",num1);
+printf("Press sccond number for the range : ");
+scanF("%d",num2);
+
+printf("Display the even number between %d and %d are : ",num1,num2);
+
+ for(i=num1,i<=num2,i++){
+     r=i%2;
+     if(r==0);
+      printf("\n%d",i)
+  }
+
+printf("\n\nDisplay the odd numbers between %d and %d are : ",num1,num2)
+
+    return 0;
+}
